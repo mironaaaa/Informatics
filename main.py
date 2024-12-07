@@ -51,7 +51,7 @@ if __name__ == "__main__":
     correct, error_position = check_error(received)
 
     if error_position != 0:
-        print(f"Ошибка в {error_position}")
+        print(f"Ошибка в {error_position+1}")
         write("output", correct)
     else:
         print("Программа завершена.")
